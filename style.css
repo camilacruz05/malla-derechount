@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #fdfdfd;
+}
+
+.materia {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.materia.completada {
+  background-color: #c8e6c9;
+  text-decoration: line-through;
+}
+
+.materia.bloqueada {
+  background-color: #eee;
+  color: #999;
+  pointer-events: none;
+}
